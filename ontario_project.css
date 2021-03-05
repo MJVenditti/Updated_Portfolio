@@ -1,0 +1,114 @@
+/*navigation styling*/
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+.card-header{
+    background-color: white;
+}
+
+/*jumbotron styling*/
+
+.jumbotron{
+    background-color:rgba(16, 51, 91, 1);
+}
+
+.jumbo_title{
+    color: white;
+    margin-left: 20px;
+}
+
+.jumbo_lead{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#jumbo_1{
+    text-align: center;
+}
+
+
+/*long text /description*/
+
+.text{
+    margin: 20px;
+}
+
+.text span{
+    font-weight: bold;
+}
+
+#phase_1 #phase_2 #phase_3 #phase_4 #phase_5 #phase_6 {
+    margin-left: 20px;
+}
+
+/*card styling*/
+
+.row{
+    margin: 20px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color:rgba(16, 51, 91, 1);
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.card-body{
+    border-radius: 10px;
+}
+
+.card-text{
+    color: white;
+    text-align: center;
+}
+
+.card-title{
+    color: white;
+    text-align: center;
+}
+
+.col img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.col2{
+    display: flex;
+    background-color:rgba(16, 51, 91, 1);
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.col3{
+    display: flex;
+    background-color:rgba(16, 51, 91, 1);
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border: white 2px solid
+}
+
+.btn{
+    color:rgba(16, 51, 91, 1);
+    background-color: white;
+    border: 2px rgba(16, 51, 91, 1) solid ;
+ }
+
+.btn:hover{
+    color: white;
+    background-color: rgba(16, 51, 91, 1);
+    border: 2px white solid;
+}
