@@ -1,0 +1,190 @@
+
+/* Body Styling */
+
+body{
+    background-color: rgba(223, 224, 219, 1)
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation/Title Styling */
+
+.Title{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.Navigation{
+    display: inline-block;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.Headline {
+    height: 100px;
+    width: cover;
+    margin: 20px;
+}
+
+.nav-grid-item {
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 10px;
+    font-size: 17px;
+    /*insert font styling here*/
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+#featured {
+    height: 30vh;
+    background-image: url("UX_UI_HW_19/images/governemnt2.jpg");
+    background: black;
+    margin: 20px; 
+    background-repeat: no-repeat;
+}
+
+#featured h3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*Case Study Section*/
+
+.card {
+    transition: 0.3;
+    border: 3px solid rgba(42, 40, 41, 1);
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center
+}
+
+.card:hover {
+    /*apply hover state if need be*/
+}
+
+.container {
+    padding: 2px 16px; 
+}
+
+.btn {
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(42, 40, 41, 1);
+    color: rgba(223, 224, 219, 1)
+}
+
+.btn:hover {
+    justify-content: center;
+    padding: 5px;
+    border: rgba(42, 40, 41, 1) 1px solid;
+    background-color: rgba(223, 224, 219, 1);
+    color: rgba(42, 40, 41, 1)
+}
+/*About Me Section*/
+
+img{ /*profile img*/
+    height: 100px;
+    width: 100px;
+    float: right;
+    border: 3px solid rgba(42, 40, 41, 1);
+}
+
+.about-me-text {
+    margin: 20px;
+}
+
+/*Footer Section*/
+
+.Footer_Navigation{
+    display: inline-block;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Karla', sans-serif;
+    margin: 20px;
+}
+
+.grid-item-foot{
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 10px;
+    font-size: 17px;
+    /*insert font styling here*/
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color:  rgba(42, 40, 41, 1);
+
+}
+
+/* Heading Styling */
+
+h1{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 4px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: white
+}
+
+.Title h5{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+
+p{
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+}
+
+.about-me-text h3{
+    text-align: left;
+    font-weight: 400px;
+}
+
