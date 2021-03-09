@@ -96,6 +96,10 @@ body a {
     background-color: rgba(223, 224, 219, 1);
     color: rgba(42, 40, 41, 1)
 }
+
+#inactive_button{
+    background-color: rgb(148, 141, 145);
+}
 /*About Me Section*/
 
 img{ /*profile img*/
@@ -115,7 +119,7 @@ img{ /*profile img*/
     display: inline-block;
     width: 100%;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     font-family: 'Karla', sans-serif;
     margin: 20px;
