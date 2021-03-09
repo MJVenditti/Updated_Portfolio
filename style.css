@@ -42,14 +42,6 @@ body a {
     text-align: center;
 }
 
-#featured {
-    height: 30vh;
-    background-image: url("UX_UI_HW_19/images/governemnt2.jpg");
-    background: black;
-    margin: 20px; 
-    background-repeat: no-repeat;
-}
-
 #featured h3 {
     position: absolute;
     top: 55%;
@@ -62,10 +54,12 @@ body a {
 
 .card {
     transition: 0.3;
-    border: 3px solid rgba(42, 40, 41, 1);
+    /* border: 3px solid rgba(42, 40, 41, 1); */
     padding: 10px;
     text-align: center;
     margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
 }
 
 .card p {
@@ -81,20 +75,35 @@ body a {
     padding: 2px 16px; 
 }
 
+#featured_1{
+    background-color: rgb(35, 87, 167);
+    color: rgba(223, 224, 219, 1);
+}
+
+#case_1{
+    background-color: rgb(126, 2, 151);
+    color: rgba(223, 224, 219, 1);
+}
+
+#case_2{
+    background-color: rgb(133, 133, 161);
+    color: rgba(223, 224, 219, 1);
+}
+
 .btn {
     justify-content: center;
     padding: 5px;
     border-radius: 5px;
-    background-color: rgba(42, 40, 41, 1);
-    color: rgba(223, 224, 219, 1)
+    background-color: rgba(223, 224, 219, 1);
+    color: rgba(42, 40, 41, 1)
 }
 
 .btn:hover {
     justify-content: center;
     padding: 5px;
-    border: rgba(42, 40, 41, 1) 1px solid;
-    background-color: rgba(223, 224, 219, 1);
-    color: rgba(42, 40, 41, 1)
+    /* border: rgba(42, 40, 41, 1) 1px solid; */
+    background-color: rgba(42, 40, 41, 1);
+    color: rgba(223, 224, 219, 1);
 }
 
 #inactive_button{
