@@ -31,6 +31,7 @@ body a {
     height: 100px;
     width: cover;
     margin: 20px;
+    background-image: url("");
 }
 
 .nav-grid-item {
