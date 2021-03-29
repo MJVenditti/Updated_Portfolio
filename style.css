@@ -31,11 +31,6 @@ body a {
     height: 100px;
     width: cover;
     margin: 20px;
-<<<<<<< Updated upstream
-=======
-    background-image: url("images/headline_background.png");
-    background-repeat: no-repeat;
->>>>>>> Stashed changes
 }
 
 .nav-grid-item {
@@ -58,9 +53,14 @@ body a {
     /* border: 3px solid rgba(42, 40, 41, 1); */
     /* padding: 10px; */
     text-align: center;
-    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     border-radius: 10px;
+    /* border: red solid 1px; */
+
 }
 
 .card p {
@@ -78,24 +78,32 @@ body a {
 }
 
 #ths_project{
-    background-color: lightyellow;
+    background-image: url("images/cat-and-dog-tattoo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #ontario_project{
-    background-color: cadetblue;
+    background-image: url("images/ontario map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #foto_project{
-    background-color: coral;
+    background-image: url("images/foto image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #sip_project{
-    background-color: lightslategray
+    background-image: url("images/Sip Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .btn {
     justify-content: right;
-    padding: 15px;
+    padding: 5px;
     border-radius: 5px;
     background-color: rgba(42, 40, 41, 1);
     color: rgba(223, 224, 219, 1);
@@ -106,10 +114,11 @@ body a {
 
 .btn:hover {
     justify-content: center;
-    padding: 15px;
+    padding: 5px;
     border: rgba(42, 40, 41, 1) 1px solid;
     background-color: rgba(223, 224, 219, 1);
-    color: rgba(42, 40, 41, 1)
+    color: rgba(42, 40, 41, 1);
+    margin: 20px;
 }
 
 #inactive_button{
