@@ -31,6 +31,11 @@ body a {
     height: 100px;
     width: cover;
     margin: 20px;
+<<<<<<< Updated upstream
+=======
+    background-image: url("images/headline_background.png");
+    background-repeat: no-repeat;
+>>>>>>> Stashed changes
 }
 
 .nav-grid-item {
