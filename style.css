@@ -58,7 +58,7 @@ body a {
     /* border: red solid 1px; */
     height: 250px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     /* background-color: rgba(0, 0, 0, 0.527); */
 
@@ -66,7 +66,7 @@ body a {
 
 .card p {
     padding: 10px;
-    text-align: center
+    text-align: center;
 }
 
 .card:hover {
@@ -78,32 +78,42 @@ body a {
     border-radius: 10px;
 }
 
-#ths_project{
+#card_1{
     background-image: url("images/cat-and-dog-tattoo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: rgb(133, 201, 169);
     color: white;
     font-weight: bold;
 }
 
-#ontario_project{
+#card_2{
     background-image: url("images/ontario map.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: rgb(12, 105, 117);
     color: white;
     font-weight: bold;
 }
 
-#foto_project{
+#card_3{
     background-image: url("images/foto image.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: rgb(250, 134, 114);
+    color: white;
+    font-weight: bold;
 }
 
-#sip_project{
-    background-image: url("images/Sip Logo.png");
+#card_4{
+    background-image: url("images/sip_cup.png");
     background-size: contain;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: rgb(49, 1, 49);
+    font-weight: bold;
+    background-color:white;
 }
 
 .btn {
@@ -131,12 +141,12 @@ body a {
 }
 /*About Me Section*/
 
-img{ /*profile img*/
-    height: 100px;
+/* img{ /*profile img*/
+    /* height: 100px;
     width: 100px;
     float: right;
     border: 3px solid rgba(42, 40, 41, 1);
-}
+} */
 
 .about-me-text {
     margin: 20px;
