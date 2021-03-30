@@ -60,21 +60,10 @@ body a {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-.card p {
-    padding: 10px;
-    text-align: center;
-}
-
-.card:hover {
-    /*apply hover state if need be*/
-}
 
 .empty_box{
     border: red 3px solid;
-    height: 200px;
-    width:200px;
     float: left;
-    margin:80px;
 }
 
 #card_1{
@@ -82,7 +71,7 @@ body a {
     color: white;
     font-weight: bold;
     border-radius: 10px;
-        border: red 1px solid;
+    border: red 1px solid;
 }
 
 #card_2{
@@ -91,11 +80,11 @@ body a {
     font-weight: bold;
 }
 
-#image_2{
+/* #image_2{
     background-image: url("images/ontario map.png");
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 
 #card_3{
@@ -104,11 +93,11 @@ body a {
     font-weight: bold;
 }
 
-#image_3{
+/* #image_3{
     background-image: url("images/foto image.png");
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 #card_4{
     color: rgb(49, 1, 49);
@@ -116,11 +105,11 @@ body a {
     background-color:white;
 }
 
-#image_4{
+/* #image_4{
     background-image: url("images/sip_cup.png");
     background-size: contain;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat; */
+/* } */
 
 .btn{
     justify-content: right;
@@ -130,7 +119,6 @@ body a {
     color: rgba(223, 224, 219, 1);
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 
 .btn:hover {
