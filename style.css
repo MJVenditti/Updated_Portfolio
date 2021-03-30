@@ -55,10 +55,10 @@ body a {
     margin: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    /* border: red solid 1px; */
+     /* border: red solid 1px; */
     height: 250px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* background-color: rgba(0, 0, 0, 0.527); */
 
@@ -78,45 +78,70 @@ body a {
     border-radius: 10px;
 }
 
+.empty_box{
+    border: red 1px solid;
+    height: 200px;
+    width:300px;
+    float: left;
+    margin: 0px;
+}
+
 #card_1{
-    background-image: url("images/cat-and-dog-tattoo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     background-color: rgb(133, 201, 169);
     color: white;
     font-weight: bold;
 }
 
-#card_2{
-    background-image: url("images/ontario map.png");
+#image_1{
+    background-image: url("images/cat-and-dog-tattoo.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#card_2{
     background-color: rgb(12, 105, 117);
     color: white;
     font-weight: bold;
 }
 
-#card_3{
-    background-image: url("images/foto image.png");
+#image_2{
+    background-image: url("images/ontario map.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#ontario_project{
+    justify-content: center;
+    border: red 1px solid;
+    align-items: center;
+    margin-left: 80px;
+}
+
+#card_3{
     background-color: rgb(250, 134, 114);
     color: white;
     font-weight: bold;
 }
 
-#card_4{
-    background-image: url("images/sip_cup.png");
+#image_3{
+    background-image: url("images/foto image.png");
     background-size: contain;
     background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
+}
+
+#card_4{
     color: rgb(49, 1, 49);
     font-weight: bold;
     background-color:white;
 }
 
-.btn {
+#image_4{
+    background-image: url("images/sip_cup.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn{
     justify-content: right;
     padding: 5px;
     border-radius: 5px;
