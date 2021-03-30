@@ -30,7 +30,6 @@ body a {
 .Headline {
     height: 100px;
     width: cover;
-    margin: 20px;
 }
 
 .nav-grid-item {
@@ -53,13 +52,15 @@ body a {
     /* border: 3px solid rgba(42, 40, 41, 1); */
     /* padding: 10px; */
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 25px;
-    margin-right: 25px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     /* border: red solid 1px; */
+    height: 250px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.527); */
 
 }
 
@@ -81,12 +82,16 @@ body a {
     background-image: url("images/cat-and-dog-tattoo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
 }
 
 #ontario_project{
     background-image: url("images/ontario map.png");
     background-size: contain;
     background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
 }
 
 #foto_project{
