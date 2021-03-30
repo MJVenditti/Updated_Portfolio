@@ -1,6 +1,19 @@
 
 /* Body Styling */
 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 body{
     background-color: rgba(223, 224, 219, 1)
 }
@@ -43,27 +56,10 @@ body a {
 
 /*Case Study Section*/
 
-.Case_Studies{
-    margin-top: 40px;
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
-
-.card {
-    /* transition: 0.3; */
-    /* border: 3px solid rgba(42, 40, 41, 1); */
-    /* padding: 10px; */
-    text-align: center;
-    margin: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-     /* border: red solid 1px; */
-    height: 250px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    /* background-color: rgba(0, 0, 0, 0.527); */
-
-}
-
 .card p {
     padding: 10px;
     text-align: center;
@@ -73,29 +69,20 @@ body a {
     /*apply hover state if need be*/
 }
 
-.container {
-    padding: 2px 16px; 
-    border-radius: 10px;
-}
-
 .empty_box{
-    border: red 1px solid;
+    border: red 3px solid;
     height: 200px;
-    width:300px;
+    width:200px;
     float: left;
-    margin: 0px;
+    margin:80px;
 }
 
 #card_1{
     background-color: rgb(133, 201, 169);
     color: white;
     font-weight: bold;
-}
-
-#image_1{
-    background-image: url("images/cat-and-dog-tattoo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+    border-radius: 10px;
+        border: red 1px solid;
 }
 
 #card_2{
@@ -110,12 +97,6 @@ body a {
     background-repeat: no-repeat;
 }
 
-#ontario_project{
-    justify-content: center;
-    border: red 1px solid;
-    align-items: center;
-    margin-left: 80px;
-}
 
 #card_3{
     background-color: rgb(250, 134, 114);
@@ -235,7 +216,7 @@ h5{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
-    color: white
+    color:  rgba(42, 40, 41, 1);
 }
 
 .Title h5{
@@ -256,3 +237,6 @@ p{
     font-weight: 400px;
 }
 
+@media (max-width: 600px){
+
+}
