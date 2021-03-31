@@ -1,26 +1,13 @@
 
 /* Body Styling */
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 body{
     background-color: rgba(223, 224, 219, 1)
 }
 
 body a {
     text-decoration: none;
-    color: black;
+    color: rgba(42, 40, 41, 1);
 }
 
 /* Navigation/Title Styling */
@@ -31,7 +18,6 @@ body a {
 }
 
 .Navigation{
-    display: inline-block;
     width: 100%;
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
@@ -41,12 +27,11 @@ body a {
 }
 
 .Headline {
-    height: 100px;
     width: cover;
 }
 
 .nav-grid-item {
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    border: 1px solid red;
     padding: 10px;
     font-size: 17px;
     /*insert font styling here*/
@@ -56,14 +41,15 @@ body a {
 
 /*Case Study Section*/
 
-.grid_container{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+.card{
+    border: blue 1px solid;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    width: 100%;
 }
 
-.empty_box{
-    border: red 3px solid;
-    float: left;
+.card p{
+    text-align: center;
 }
 
 #card_1{
@@ -78,38 +64,24 @@ body a {
     background-color: rgb(12, 105, 117);
     color: white;
     font-weight: bold;
+    border-radius: 10px;
+    border: red 1px solid;
 }
-
-/* #image_2{
-    background-image: url("images/ontario map.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
 
 #card_3{
     background-color: rgb(250, 134, 114);
     color: white;
     font-weight: bold;
+    border-radius: 10px;
+    border: red 1px solid;
 }
-
-/* #image_3{
-    background-image: url("images/foto image.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
 
 #card_4{
     color: rgb(49, 1, 49);
     font-weight: bold;
-    background-color:white;
+    border-radius: 10px;
+    border: red 1px solid;
 }
-
-/* #image_4{
-    background-image: url("images/sip_cup.png");
-    background-size: contain;
-    background-repeat: no-repeat; */
-/* } */
 
 .btn{
     justify-content: right;
@@ -133,41 +105,54 @@ body a {
 #inactive_button{
     background-color: rgb(148, 141, 145);
 }
-/*About Me Section*/
 
-/* img{ /*profile img*/
-    /* height: 100px;
-    width: 100px;
-    float: right;
-    border: 3px solid rgba(42, 40, 41, 1);
-} */
 
-.about-me-text {
+.about_me {
     margin: 20px;
 }
 
-/*Footer Section*/
+/* W3schools instructions */
 
-.Footer_Navigation{
-    display: inline-block;
-    width: 100%;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    font-family: 'Karla', sans-serif;
-    margin: 20px;
-}
-
-.grid-item-foot{
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-    padding: 10px;
-    font-size: 17px;
-    /*insert font styling here*/
-    font-family: 'Karla', sans-serif;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
     text-align: center;
-    margin-top: 10px;
-    color:  rgba(42, 40, 41, 1);
-
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 850px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
 }
 
 /* Heading Styling */
@@ -214,17 +199,12 @@ h5{
     letter-spacing: 4px;
 }
 
-
 p{
     text-align: left;
     font-family: 'Karla', sans-serif;
 }
 
-.about-me-text h3{
+.about_me h3{
     text-align: left;
     font-weight: 400px;
-}
-
-@media (max-width: 600px){
-
 }
