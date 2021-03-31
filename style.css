@@ -7,7 +7,7 @@ body{
 
 body a {
     text-decoration: none;
-    color: black;
+    color: rgba(42, 40, 41, 1);
 }
 
 /* Navigation/Title Styling */
@@ -18,7 +18,6 @@ body a {
 }
 
 .Navigation{
-    display: inline-block;
     width: 100%;
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
@@ -28,14 +27,11 @@ body a {
 }
 
 .Headline {
-    height: 100px;
     width: cover;
-    margin: 20px;
-    background-image: url("");
 }
 
 .nav-grid-item {
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    border: 1px solid red;
     padding: 10px;
     font-size: 17px;
     /*insert font styling here*/
@@ -45,107 +41,118 @@ body a {
 
 /*Case Study Section*/
 
-.Case_Studies{
-    margin-top: 40px;
+.card{
+    border: blue 1px solid;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    width: 100%;
 }
 
-.card {
-    /* transition: 0.3; */
-    /* border: 3px solid rgba(42, 40, 41, 1); */
-    /* padding: 10px; */
+.card p{
     text-align: center;
-    margin: 25px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+#card_1{
+    background-color: rgb(133, 201, 169);
+    color: white;
+    font-weight: bold;
     border-radius: 10px;
+    border: red 1px solid;
 }
 
-.card p {
-    padding: 10px;
-    text-align: center
-}
-
-.card:hover {
-    /*apply hover state if need be*/
-}
-
-.container {
-    padding: 2px 16px; 
+#card_2{
+    background-color: rgb(12, 105, 117);
+    color: white;
+    font-weight: bold;
     border-radius: 10px;
+    border: red 1px solid;
 }
 
-#ths_project{
-    background-color: lightyellow;
+#card_3{
+    background-color: rgb(250, 134, 114);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: red 1px solid;
 }
 
-#ontario_project{
-    background-color: cadetblue;
+#card_4{
+    color: rgb(49, 1, 49);
+    font-weight: bold;
+    border-radius: 10px;
+    border: red 1px solid;
 }
 
-#foto_project{
-    background-color: coral;
-}
-
-#sip_project{
-    background-color: lightslategray
-}
-
-.btn {
+.btn{
     justify-content: right;
-    padding: 15px;
+    padding: 5px;
     border-radius: 5px;
     background-color: rgba(42, 40, 41, 1);
     color: rgba(223, 224, 219, 1);
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 
 .btn:hover {
     justify-content: center;
-    padding: 15px;
+    padding: 5px;
     border: rgba(42, 40, 41, 1) 1px solid;
     background-color: rgba(223, 224, 219, 1);
-    color: rgba(42, 40, 41, 1)
+    color: rgba(42, 40, 41, 1);
+    margin: 20px;
 }
 
 #inactive_button{
     background-color: rgb(148, 141, 145);
 }
-/*About Me Section*/
 
-img{ /*profile img*/
-    height: 100px;
-    width: 100px;
-    float: right;
-    border: 3px solid rgba(42, 40, 41, 1);
-}
 
-.about-me-text {
+.about_me {
     margin: 20px;
 }
 
-/*Footer Section*/
+/* W3schools instructions */
 
-.Footer_Navigation{
-    display: inline-block;
-    width: 100%;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    font-family: 'Karla', sans-serif;
-    margin: 20px;
-}
-
-.grid-item-foot{
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-    padding: 10px;
-    font-size: 17px;
-    /*insert font styling here*/
-    font-family: 'Karla', sans-serif;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
     text-align: center;
-    margin-top: 10px;
-    color:  rgba(42, 40, 41, 1);
-
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 850px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
 }
 
 /* Heading Styling */
@@ -182,7 +189,7 @@ h5{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
-    color: white
+    color:  rgba(42, 40, 41, 1);
 }
 
 .Title h5{
@@ -192,14 +199,12 @@ h5{
     letter-spacing: 4px;
 }
 
-
 p{
     text-align: left;
     font-family: 'Karla', sans-serif;
 }
 
-.about-me-text h3{
+.about_me h3{
     text-align: left;
     font-weight: 400px;
 }
-
