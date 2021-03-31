@@ -35,7 +35,7 @@ body a {
 .nav-grid-item {
     border: 1px solid blue;
     padding: 10px;
-    font-size: 17px;
+    font-size: 18px;
     /*insert font styling here*/
     font-family: 'Karla', sans-serif;
     text-align: center;
@@ -44,7 +44,7 @@ body a {
 }
 .nav-grid-item a:hover{
     padding: 10px;
-    font-size: 17px;
+    font-size: 18px;
     /*insert font styling here*/
     font-family: 'Karla', sans-serif;
     text-align: center;
