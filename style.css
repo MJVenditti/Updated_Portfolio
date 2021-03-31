@@ -40,16 +40,19 @@ body a {
     font-family: 'Karla', sans-serif;
     text-align: center;
     transition: 0.3s;
+    font-weight: 300px;
+}
+.nav-grid-item a:hover{
+    padding: 10px;
+    font-size: 17px;
+    /*insert font styling here*/
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 /*Case Study Section*/
 
-.card{
-    border: blue 1px solid;
-    display: inline-block;
-    font-family: 'Karla', sans-serif;
-    width: 100%;
-}
 
 .card p{
     text-align: center;
@@ -94,6 +97,7 @@ body a {
     color: rgba(223, 224, 219, 1);
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 300;
 }
 
 .btn:hover {
@@ -114,6 +118,10 @@ body a {
     margin: 20px;
 }
 
+.skills {
+    margin: 20px;
+}
+
 /* W3schools instructions */
 
 * {
@@ -121,7 +129,7 @@ body a {
 }
   
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Karla', sans-serif;
 }
   
   /* Float four columns side by side */
@@ -143,10 +151,10 @@ body {
   
   /* Style the counter cards */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    font-family:'Karla', sans-serif;
 }
 
 .card img{
@@ -221,4 +229,11 @@ p{
 .about_me h3{
     text-align: left;
     font-weight: 400px;
+    font-family:'Karla', sans-serif;
+}
+
+.skills h3{
+    text-align: left;
+    font-weight: 400px;
+    font-family:'Karla', sans-serif;
 }
