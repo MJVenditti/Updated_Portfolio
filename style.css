@@ -98,12 +98,12 @@ body a {
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-weight: 300;
+    transition: .3s;
 }
 
 .btn:hover {
     justify-content: center;
     padding: 5px;
-    border: rgba(42, 40, 41, 1) 1px solid;
     background-color: rgba(223, 224, 219, 1);
     color: rgba(42, 40, 41, 1);
     margin: 20px;
