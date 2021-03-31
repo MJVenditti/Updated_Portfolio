@@ -31,7 +31,7 @@ body a {
 }
 
 .nav-grid-item {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
     font-size: 17px;
     /*insert font styling here*/
@@ -42,7 +42,7 @@ body a {
 /*Case Study Section*/
 
 .card{
-    border: blue 1px solid;
+    /* border: blue 1px solid; */
     display: inline-block;
     font-family: 'Karla', sans-serif;
     width: 100%;
@@ -57,7 +57,7 @@ body a {
     color: white;
     font-weight: bold;
     border-radius: 10px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
 }
 
 #card_2{
@@ -65,7 +65,7 @@ body a {
     color: white;
     font-weight: bold;
     border-radius: 10px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
 }
 
 #card_3{
@@ -73,14 +73,14 @@ body a {
     color: white;
     font-weight: bold;
     border-radius: 10px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
 }
 
 #card_4{
     color: rgb(49, 1, 49);
     font-weight: bold;
     border-radius: 10px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
 }
 
 .btn{
