@@ -15,7 +15,7 @@ body a {
 .Title{
     text-align: center;
     font-family: 'Karla', sans-serif;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .Navigation{
@@ -25,11 +25,12 @@ body a {
     grid-template-rows: 1fr;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
+    margin-bottom: 20px
 }
 
 .Headline {
     width: cover;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .nav-grid-item {
@@ -96,7 +97,6 @@ body a {
     background-color: rgba(42, 40, 41, 1);
     color: rgba(223, 224, 219, 1);
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-weight: 300;
     transition: .3s;
 }
@@ -155,7 +155,9 @@ body {
     text-align: center;
     background-color: #f1f1f1;
     font-family:'Karla', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 .card img{
     width: 100%;
