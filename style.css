@@ -62,7 +62,6 @@ body a {
 #card_1{
     background-color: rgb(133, 201, 169);
     color: white;
-    font-weight: bold;
     border-radius: 10px;
     /* border: red 1px solid; */
 }
@@ -70,40 +69,41 @@ body a {
 #card_2{
     background-color: rgb(12, 105, 117);
     color: white;
-    font-weight: bold;
     border-radius: 10px;
     /* border: red 1px solid; */
 }
 
 #card_3{
-    background-color: rgb(250, 134, 114);
-    color: white;
-    font-weight: bold;
+    background-color: rgb(231, 154, 154);
+    color: rgb(30, 80, 155);
     border-radius: 10px;
     /* border: red 1px solid; */
 }
 
 #card_4{
     color: rgb(49, 1, 49);
-    font-weight: bold;
     border-radius: 10px;
     /* border: red 1px solid; */
 }
 
 .btn{
-    justify-content: right;
-    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 5px;
     background-color: rgba(42, 40, 41, 1);
     color: rgba(223, 224, 219, 1);
     margin: 20px;
-    font-weight: 300;
+    font-weight: 500;
     transition: .3s;
 }
 
 .btn:hover {
-    justify-content: center;
-    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: rgba(223, 224, 219, 1);
     color: rgba(42, 40, 41, 1);
     margin: 20px;
@@ -216,6 +216,14 @@ h5{
     font-size: 15px;
 }
 
+h6{
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
 .Title h5{
     text-align: center;
     font-family: 'Karla', sans-serif;
@@ -234,7 +242,7 @@ p{
     font-family:'Karla', sans-serif;
 }
 
-.skills h3{
+.skills{
     text-align: left;
     font-weight: 400px;
     font-family:'Karla', sans-serif;
