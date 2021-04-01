@@ -165,7 +165,7 @@ body {
 }
   
   /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .column {
       width: 100%;
       display: block;
@@ -236,6 +236,10 @@ p{
     font-family: 'Karla', sans-serif;
 }
 
+.about_me{
+    margin-top: 40px;
+}
+
 .about_me h3{
     text-align: left;
     font-weight: 400px;
@@ -246,4 +250,5 @@ p{
     text-align: left;
     font-weight: 400px;
     font-family:'Karla', sans-serif;
+    margin-top: 50px;
 }
