@@ -18,6 +18,18 @@ body a {
     /* border: 1px red solid; */
 }
 
+.mail_icon{
+    /* border: red 1px solid; */
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.mail_icon:hover{
+
+}
+
 .Navigation{
     width: 100%;
     display: inline-grid;
@@ -43,6 +55,17 @@ body a {
     transition: 0.3s;
     font-weight: 300px;
 }
+
+.nav-grid-item a{
+    padding: 10px;
+    font-size: 18px;
+    /*insert font styling here*/
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-weight: 300px;
+    transition: .3s;
+}
+
 .nav-grid-item a:hover{
     padding: 10px;
     font-size: 18px;
